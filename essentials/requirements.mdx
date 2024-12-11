@@ -1,0 +1,134 @@
+---
+title: "Requirements Generation"
+description: "Convert natural language into structured testing requirements"
+icon: "list-check"
+---
+
+## Requirements Generation
+
+Test Companion allows you to create structured requirements using either text input or voice recording, with AI-powered priority assignment.
+
+### Input Methods
+
+<CardGroup cols={2}>
+  <Card title="Type Requirements" icon="keyboard">
+    Enter requirements directly using the text input field
+  </Card>
+
+  <Card title="Voice Recording" icon="microphone">
+    Speak your requirements naturally for automatic conversion
+  </Card>
+</CardGroup>
+
+## Creating Requirements
+
+### Text Input Method
+
+1. Select the "Type" option
+2. Enter your requirements in natural language
+3. Click "Process Text" to generate structured requirements
+
+### Voice Recording Method
+
+1. Select the "Voice" option
+2. Click "Start Recording"
+3. Speak your requirements naturally
+4. Recording will automatically process when you finish
+
+<Note>
+  Use natural language to describe your requirements. The AI will structure them
+  and assign appropriate priority levels.
+</Note>
+
+## Example Format
+
+Here's an example of how to phrase your requirements:
+
+```text
+"The system should allow users to log in with their email and password with high priority.
+Users should also be able to reset their password through email verification with medium priority."
+```
+
+## Requirements Preview
+
+After processing, requirements are displayed with:
+
+- Clear, structured statements
+- Automatically assigned priority levels (High, Medium, Low)
+- Draft status indicators
+- Delete options for each requirement
+
+### Priority Levels
+
+Requirements are automatically categorized with priority tags:
+
+- High Priority - Critical functionality
+- Medium Priority - Important features
+- Low Priority - Nice-to-have features
+
+## Managing Requirements
+
+### Adding Requirements
+
+1. Review the generated requirements in the preview section
+2. Remove any unwanted requirements using the delete (×) button
+3. Click "Add Requirements" to save the approved requirements
+
+### Editing Requirements
+
+- Each requirement can be:
+  - Deleted individually
+  - Modified before final addition
+  - Re-processed if needed
+
+<Warning>
+  Deleted requirements cannot be recovered. Make sure to review carefully before
+  removing.
+</Warning>
+
+## Integration with Test Cases
+
+Requirements can be used to:
+
+- Guide test case generation
+- Provide context for bug reports
+- Track testing coverage
+- Prioritize testing efforts
+
+<Tip>
+  Use specific, actionable language when describing requirements to get better
+  structured results and more accurate priority assignments.
+</Tip>
+
+## Best Practices
+
+1. **Clear Requirements**
+
+   - Use specific, measurable terms
+   - Include expected behavior
+   - Specify conditions and constraints
+
+2. **Voice Recording**
+
+   - Speak clearly and at a moderate pace
+   - Use complete sentences
+   - Include priority indicators in your speech
+
+3. **Review Process**
+   - Verify priority assignments
+   - Check for completeness
+   - Ensure requirements are testable
+
+## Example Requirements
+
+Here are some well-structured requirements:
+
+```text
+The system must ensure that passwords are encrypted and not stored in plain text.
+
+After a successful login, the system must maintain the user's session until they log out
+or the session expires after a defined period of inactivity.
+
+The system must lock an account after 5 consecutive failed login attempts and provide
+instructions to reset the password.
+```

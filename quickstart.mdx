@@ -1,86 +1,121 @@
 ---
-title: 'Quickstart'
-description: 'Start building awesome documentation in under 5 minutes'
+title: "Quickstart"
+description: "Get started with Test Companion in minutes"
 ---
 
-## Setup your development
+## Setup Your Environment
 
-Learn how to update your docs locally and deploy them to the public.
+<Steps>
+  <Step title="Install Browser Extension">
+    Install the Test Companion browser extension to start recording your web interactions:
+    [Install on Chrome Web Store](https://chromewebstore.google.com/detail/test-companion/kfpfhacjgfiekpdkccdinaddipdmgbem)
+  </Step>
 
-### Edit and preview
+<Step title="Create Your First Project">
+  1. Log in to your Test Companion dashboard 2. Click "New Project" in the
+  top-right corner 3. Enter project details: - Project name - Description
+  (optional) 4. Click "Save Changes"
+</Step>
+
+  <Step title="Configure Recording Key">
+    1. Navigate to your project settings
+    2. Find the "Recording Key" section
+    3. Copy the recording key
+    4. Configure the browser extension with your recording key
+  </Step>
+</Steps>
+
+## Core Features
+
+### 1. Recording Test Steps
 
 <AccordionGroup>
-  <Accordion icon="github" title="Clone your docs locally">
-    During the onboarding process, we created a repository on your Github with
-    your docs content. You can find this repository on our
-    [dashboard](https://dashboard.mintlify.com). To clone the repository
-    locally, follow these
-    [instructions](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
-    in your terminal.
+  <Accordion icon="video" title="Record Web Interactions">
+    1. Click the Test Companion extension icon
+    2. Start recording
+    3. Perform your test actions
+    4. Stop recording when finished
+    5. Recording will automatically upload to your project
   </Accordion>
-  <Accordion icon="rectangle-terminal" title="Preview changes">
-    Previewing helps you make sure your changes look as intended. We built a
-    command line interface to render these changes locally. 1. Install the
-    [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-    documentation changes locally with this command: ``` npm i -g mintlify ```
-    2. Run the following command at the root of your documentation (where
-    `mint.json` is): ``` mintlify dev ```
+
+{" "}
+
+<Accordion icon="wand-magic-sparkles" title="Generate Test Cases">
+  1. Navigate to your recorded steps 2. Click "Generate New Test Cases" 3. Wait
+  for AI-powered analysis 4. Review and manage generated test cases
+</Accordion>
+
+  <Accordion icon="bug" title="Create Bug Reports">
+    1. Open your recording
+    2. Click "Report Bug"
+    3. Describe the issue (type or voice)
+    4. Generate structured bug report
+    5. Review and edit as needed
   </Accordion>
 </AccordionGroup>
 
-### Deploy your changes
+### 2. Requirements Management
 
-<AccordionGroup>
+<CardGroup cols={2}>
+  <Card title="Add Requirements" icon="list-check">
+    Two ways to create requirements:
+    - Type requirements directly
+    - Use voice recording for natural input
+  </Card>
 
-<Accordion icon="message-bot" title="Install our Github app">
-  Our Github app automatically deploys your changes to your docs site, so you
-  don't need to manage deployments yourself. You can find the link to install on
-  your [dashboard](https://dashboard.mintlify.com). Once the bot has been
-  successfully installed, there should be a check mark next to the commit hash
-  of the repo.
-</Accordion>
-<Accordion icon="rocket" title="Push your changes">
-  [Commit and push your changes to
-  Git](https://docs.github.com/en/get-started/using-git/pushing-commits-to-a-remote-repository#about-git-push)
-  for your changes to update in your docs site. If you push and don't see that
-  the Github app successfully deployed your changes, you can also manually
-  update your docs through our [dashboard](https://dashboard.mintlify.com).
-</Accordion>
-
-</AccordionGroup>
-
-## Update your docs
-
-Add content directly in your files with MDX syntax and React components. You can use any of our components, or even build your own.
-
-<CardGroup>
-
-<Card title="Style Your Docs" icon="paintbrush" href="/settings/global">
-  Add flair to your docs with personalized branding.
-</Card>
-
-<Card
-  title="Add API Endpoints"
-  icon="square-code"
-  href="/api-playground/configuration"
->
-  Implement your OpenAPI spec and enable API user interaction.
-</Card>
-
-<Card
-  title="Integrate Analytics"
-  icon="chart-mixed"
-  href="/analytics/supported-integrations"
->
-  Draw insights from user interactions with your documentation.
-</Card>
-
-<Card
-  title="Host on a Custom Domain"
-  icon="browser"
-  href="/settings/custom-domain/subdomain"
->
-  Keep your docs on your own website's subdomain.
-</Card>
-
+  <Card title="AI Processing" icon="robot">
+    Our AI automatically:
+    - Structures requirements
+    - Assigns priority levels
+  </Card>
 </CardGroup>
+
+## Project Organization
+
+Organize your testing artifacts efficiently:
+
+<CardGroup cols={3}>
+  <Card title="Recordings" icon="video">
+    Capture and store web interactions
+  </Card>
+
+{" "}
+
+<Card title="Test Cases" icon="flask">
+  AI-generated test scenarios
+</Card>
+
+  <Card title="Bug Reports" icon="bug">
+    Structured issue documentation
+  </Card>
+</CardGroup>
+
+## Next Steps
+
+<CardGroup cols={2}>
+  <Card title="Test Case Generation" icon="book" href="essentials/test-cases">
+    Learn how to generate test cases
+  </Card>
+
+{" "}
+
+<Card title="Bug Report Generation" icon="code" href="essentials/bug-reports">
+  Learn how to generate bug reports
+</Card>
+
+{" "}
+
+<Card
+  title="Requirements Management"
+  icon="star"
+  href="essentials/requirements"
+>
+  Learn how to add requirements to recorded steps
+</Card>
+
+  <Card title="Settings" icon="code" href="essentials/settings">
+    Manage your API keys and subscription
+  </Card>
+</CardGroup>
+
+<Note>Need help? Contact our support team at support@test-companion.com.</Note>

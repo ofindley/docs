@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Test Companion",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png"
   },
-  "favicon": "/favicon.ico",
+  "favicon": "/favicon.png",
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -22,14 +22,10 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Test Companion",
+    "url": "https://www.testcompanion.ai"
   },
   "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    },
     {
       "name": "Browser Extension",
       "url": "browser-extension"
@@ -37,47 +33,36 @@
   ],
   "anchors": [
     {
-      "name": "Test Companion",
-      "icon": "world",
-      "url": "https://www.testcompanion.ai"
+      "name": "Browser Extension",
+      "icon": "chrome",
+      "url": "https://chromewebstore.google.com/detail/test-companion/kfpfhacjgfiekpdkccdinaddipdmgbem"
     },
     {
       "name": "Support",
-      "icon": "question-circle",
+      "icon": "square-question",
       "url": "https://test-companion.canny.io/"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
     }
   ],
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": ["introduction", "quickstart"]
     },
     {
       "group": "Essentials",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        "essentials/test-cases",
+        "essentials/bug-reports",
+        "essentials/requirements",
+        "essentials/projects",
+        "essentials/settings"
       ]
     },
     {
-      "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
-    },
-    {
-      "group": "Endpoint Examples",
+      "group": "Browser Extension",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "browser-extension/introduction",
+        "browser-extension/quickstart"
       ]
     }
   ],

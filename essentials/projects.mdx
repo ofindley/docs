@@ -1,0 +1,142 @@
+---
+title: "Projects"
+description: "Organize and manage your testing artifacts by project"
+icon: "folder-open"
+---
+
+## Project Management
+
+Projects help you organize your testing workflow by grouping related recordings, test cases, and bug reports together.
+
+### Creating a Project
+
+1. Click the "New Project" button in the top-right corner
+2. Enter project details:
+   - Project name
+   - Description (optional)
+   - Created date (automatically set)
+3. Click "Save Changes" to create the project
+
+<Note>
+  Projects help you organize testing efforts for different applications,
+  features, or teams.
+</Note>
+
+## Project Dashboard
+
+Each project displays key metrics at a glance:
+
+<CardGroup cols={3}>
+  <Card title="Recordings" icon="video">
+    Number of recorded test sessions
+  </Card>
+  
+  <Card title="Test Case Batches" icon="flask">
+    Generated test case collections
+  </Card>
+
+  <Card title="Bug Reports" icon="bug">
+    Documented issues and bugs
+  </Card>
+</CardGroup>
+
+## Project Settings
+
+### Recording Key
+
+Generate a project-specific recording key to automatically assign recordings:
+
+1. Navigate to project settings
+2. Find the "Recording Key" section
+3. Options:
+   - **Copy**: Copy the current key
+   - **Regenerate**: Create a new key
+   - **Clear**: Remove the existing key
+
+<Warning>
+  Regenerating a key will invalidate the previous key. Update your browser
+  extension with the new key to continue recording.
+</Warning>
+
+### Project Status
+
+Projects can be in one of two states:
+
+- **Active**: Visible in dashboard and available for new recordings
+- **Archived**: Hidden from main view but preserved for reference
+
+To change status:
+
+1. Go to project settings
+2. Click "Archive Project" to archive
+3. Archived projects can be reactivated from the projects list
+
+### Project Management Options
+
+<CardGroup cols={2}>
+  <Card title="Edit Project" icon="pen-to-square">
+    - Modify project name - Update description - Change project settings
+  </Card>
+
+  <Card title="Delete Project" icon="trash" color="red">
+    Permanently remove project and all associated data
+  </Card>
+</CardGroup>
+
+<Warning>
+  Deleting a project will permanently remove all associated recordings, test
+  cases, and bug reports. This action cannot be undone.
+</Warning>
+
+## Project Organization
+
+### Viewing Projects
+
+- Active projects appear in your main dashboard
+- Use "View All Projects" to see both active and archived projects
+- Click on a project to view its details and contents
+
+### Project Contents
+
+Each project contains:
+
+1. **Recordings**
+
+   - Captured test sessions
+   - Automatically tagged with metadata
+   - Organized by date and time
+
+2. **Test Case Batches**
+
+   - Generated test cases from recordings
+   - Grouped by generation batch
+   - Linked to source recordings
+
+3. **Bug Reports**
+   - Documented issues
+   - Associated with recordings
+   - Tracked with status and priority
+
+<Tip>
+  Use tags to further organize recordings within a project. Tags can help
+  categorize by feature, component, or test type.
+</Tip>
+
+## Best Practices
+
+1. **Project Structure**
+
+   - Create separate projects for different applications or major features
+   - Use clear, descriptive project names
+   - Add detailed project descriptions
+
+2. **Recording Management**
+
+   - Use project-specific recording keys
+   - Tag recordings appropriately
+   - Keep related recordings in the same project
+
+3. **Project Maintenance**
+   - Archive completed or inactive projects
+   - Regularly review and clean up unused recordings
+   - Maintain project documentation
