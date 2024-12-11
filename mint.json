@@ -29,18 +29,22 @@
     {
       "name": "API Reference",
       "url": "api-reference"
-    }
+    },
+    {
+      "name": "Browser Extension",
+      "url": "browser-extension"
+    },
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "Test Companion",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.testcompanion.ai"
     },
     {
-      "name": "Community",
+      "name": "Support",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://test-companion.canny.io/"
     },
     {
       "name": "Blog",
@@ -84,8 +88,8 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/test_companion",
+    "github": "https://github.com/ofindley",
+    "linkedin": "https://www.linkedin.com/company/test-companion"
   }
 }
